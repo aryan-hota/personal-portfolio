@@ -1,12 +1,12 @@
 :root {
-  --bg:        #0e0e0e;
-  --surface:   #161616;
-  --border:    #252525;
-  --accent:    #f0a500;
-  --accent2:   #e05c2a;
-  --text:      #e8e0d4;
-  --muted:     #7a7269;
-  --code-bg:   #1e1e1e;
+  --bg:        #231942;
+  --surface:   #2a2050;
+  --border:    #3d2f6b;
+  --accent:    #be95c4;
+  --accent2:   #9f86c0;
+  --text:      #e0b1cb;
+  --muted:     #7a6a8a;
+  --code-bg:   #1e1830;
 
   --font-serif: 'DM Serif Display', Georgia, serif;
   --font-sans:  'DM Sans', sans-serif;
@@ -32,8 +32,8 @@ body {
   inset: 0;
   z-index: 0;
   background-image:
-    radial-gradient(circle at 20% 20%, rgba(240,165,0,0.06) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(224,92,42,0.05) 0%, transparent 50%),
+    radial-gradient(circle at 20% 20%, rgba(94,84,142,0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(159,134,192,0.10) 0%, transparent 50%),
     linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
   background-size: auto, auto, 60px 60px, 60px 60px;
@@ -48,7 +48,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.25rem 3rem;
-  background: rgba(14,14,14,0.85);
+  background: rgba(35,25,66,0.90);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
 }
@@ -132,7 +132,7 @@ nav {
   margin-top: 2.5rem;
   padding: 0.75rem 1.75rem;
   background: var(--accent);
-  color: #0e0e0e;
+  color: #231942;
   font-family: var(--font-mono);
   font-size: 0.85rem;
   font-weight: 500;
@@ -145,7 +145,7 @@ nav {
 }
 
 .cta-btn:hover {
-  background: #ffd166;
+  background: #e0b1cb;
   transform: translateY(-2px);
 }
 
@@ -166,14 +166,14 @@ nav {
 .c1 {
   width: 320px; height: 320px;
   top: -160px; right: -60px;
-  border-color: rgba(240,165,0,0.15);
+  border-color: rgba(190,149,196,0.20);
   animation: spin 30s linear infinite;
 }
 
 .c2 {
   width: 200px; height: 200px;
   top: -100px; right: 20px;
-  border-color: rgba(224,92,42,0.1);
+  border-color: rgba(159,134,192,0.12);
   animation: spin 20s linear infinite reverse;
 }
 
@@ -329,7 +329,7 @@ nav {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent);
-  border: 1px solid rgba(240,165,0,0.3);
+  border: 1px solid rgba(190,149,196,0.35);
   padding: 0.2rem 0.5rem;
   border-radius: 2px;
 }
@@ -394,7 +394,7 @@ nav {
   font-size: 1rem;
   color: var(--accent);
   text-decoration: none;
-  border: 1px solid rgba(240,165,0,0.3);
+  border: 1px solid rgba(190,149,196,0.35);
   padding: 1rem 2rem;
   border-radius: 2px;
   transition: background 0.2s, border-color 0.2s;
@@ -402,7 +402,7 @@ nav {
 }
 
 .contact-email:hover {
-  background: rgba(240,165,0,0.07);
+  background: rgba(190,149,196,0.08);
   border-color: var(--accent);
 }
 
